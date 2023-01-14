@@ -13,7 +13,6 @@ data_city = (city_name_request.json())
 
 lat, lon = data_city[0]['lat'], data_city[0]['lon']
 
-
 res_openweather = requests.get(f'https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid='
                                f'{API_key}&units=metric')
 

@@ -9,6 +9,7 @@ from urllib import request, parse
 import random
 
 url_ = "http://api.giphy.com/v1/gifs/search"
+
 response = requests.get(url_)
 
 match response.status_code:

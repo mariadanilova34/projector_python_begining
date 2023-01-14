@@ -1,5 +1,4 @@
 import requests
-from math import *
 
 res_privatbank = requests.get('https://api.privatbank.ua/p24api/pubinfo?exchange&coursid=5')
 
